@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    display: flex;
+}
+
+.input-group{
+    margin: 10px 0 0 30px;
+    padding: 15px;
+    width: 500px;
+}
+
+#frame{
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+#mainbox{
+    display: flex
+}
+
+.navitem{
+    flex-grow: 2;
+}
+
+.nav{
+    margin: 0 15px;
+}
+
+#mainshow{
+    margin: 20px 30px;
+    text-align: left;
+}
+
+#form{
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin:20px 150px;
+    width: 150px;
+}
+
+a{
+    padding: 0 10px;
+}
+
+#title{
+    margin-left: 15px;
+}
+
+#showcard{
+    text-align: left;
+    margin-left: 25px;
+}
